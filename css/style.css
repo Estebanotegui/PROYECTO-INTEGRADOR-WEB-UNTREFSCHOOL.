@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #eff5f5;
+  background-image: url(./assets/logo\ untref\ traslucido\ 2.png);
+  object-fit: cover;
+}
+
+header h1 {
+  background-color: #00425a;
+  text-align: center;
+  color: #fc7300;
+  font-size: xx-large;
+}
+
+header h1:hover {
+  color: #181823;
+}
+
+.nav-links a {
+  font-size: x-large;
+  text-decoration: none;
+  color: #1f8a70;
+}
+
+.nav-links a:hover {
+  color: #fc7300;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+@media (max-width: 320px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links a {
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links a {
+    margin: 5px 0;
+  }
+}
+
+section {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fc7300;
+  color: #eff5f5;
+  border-radius: 30px;
+  font-size: x-large;
+}
+
+section img {
+  border-radius: 5%;
+  max-width: 100%;
+  height: auto;
+}
+
+section h2:hover {
+  color: #00425a;
+}
+
+.seccion4 b:hover {
+  color: #00425a;
+}
+footer{
+  justify-content: space-between;
+  display:flex;
+  text-align: center;
+  background-color:#00425a;
+}
+.izquierda{
+  font-size:small;
+  color:#fc7300;
+  }
+.izquierda a{
+  color: #eff5f5;
+  text-decoration: none;
+
+}
+.derechos{
+  color: #eff5f5;
+}
+.centro {
+  justify-content: space-between;
+  display: flex;
+  color: #eff5f5;
+  text-align: center;
+  padding-top: 3%;
+}
+.centro:hover{
+  color: #181823;
+}
+.derecha{
+  justify-content: space-between;
+  color: #eff5f5;
+}
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .izquierda,
+  .centro,
+  .derecha {
+    padding: 10px;
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .izquierda,
+  .centro,
+  .derecha {
+    padding: 5px;
+  }
+}
